@@ -241,19 +241,28 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
 
   /* index.html */
-  #image1{
-    border: 5px, solid, green;
-    width: auto;
+  .main-section {
 
   }
 
+  .sidebar {
+
+  }
+
+  .auth-image {
+    float: left;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
   #para1{
-    color: blue;
     clear: left;
   }
 
   #para2{
-    color: red;
     clear: left;
   }
 
@@ -261,10 +270,80 @@ input[type=submit] {
 
 /* general screen at 768px max width */
 @media screen and (max-width: 768px) {
+  /* index.html */
+  .main-section {
+    /* float: left;
+    padding: 30px;
+    clear: right; */
+  }
+
+  .sidebar {
+    float: left;
+    padding: 30px;
+    clear: left;
+    width: 100%;
+    max-width: 650px;
+  }
+
+  .auth-image {
+    float: left;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  #para1{
+    clear: none;
+  }
+
+  #para2{
+    clear: none;
+  }
 
 }
 
 /* general screen at 640px max width */
 @media screen and (max-width: 640px) {
+  #logo {
+    width: 100%;
+    max-width: 622px;
+    float: left;
+    clear: both;
+  }
+
+  nav {
+    width:100%;
+    max-width: 622;
+    margin:0 auto;
+    list-style:none;
+  }
+
+  nav a {
+    display: inline-block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none;
+  }
+
+  .nav li {
+    float:left;
+  }
+
+  .auth-image {
+    float: left;
+    width: 100%;
+    max-width: 561px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+  #para1{
+    clear: left;
+  }
+
+  #para2{
+    clear: left;
+  }
+
 
 }

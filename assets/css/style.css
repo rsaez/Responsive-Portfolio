@@ -242,7 +242,8 @@ input[type=submit] {
 
   /* index.html */
   .main-section {
-
+    text-align: center;
+    display: inline-block;
   }
 
   .sidebar {
@@ -265,6 +266,25 @@ input[type=submit] {
   #para2{
     clear: left;
   }
+
+  /* portfolio page */
+
+  .work {
+    position: relative;
+    float: left;
+    clear: both;
+    text-align: center;
+    display: block;
+
+  }
+
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+
+
 
 }
 
@@ -297,6 +317,23 @@ input[type=submit] {
 
   #para2{
     clear: none;
+  }
+
+  /* portfolio page */
+
+  .work {
+    position: relative;
+    float: left;
+    clear: none;
+    text-align: center;
+    display: block;
+
+  }
+
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
   }
 
 }
@@ -345,5 +382,21 @@ input[type=submit] {
     clear: left;
   }
 
+  /* portfolio page */
+
+  .work {
+    position: relative;
+    float: left;
+    clear: both;
+    text-align: center;
+    display: block;
+
+  }
+
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
 
 }

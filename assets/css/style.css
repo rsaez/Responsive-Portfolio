@@ -10,8 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-/* general */
-
 .container {
   width: 100%;
   max-width: 960px;
@@ -33,7 +31,8 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Verdana, "Geneva", sans-serif;
+  /* font-family: Georgia, Times, "Times New Roman", serif; */
   font-weight: 700;
   color: #4aaaa5;
 }
@@ -236,4 +235,36 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* general screen at 980px max width */
+@media screen and (max-width: 980px) {
+
+  /* index.html */
+  #image1{
+    border: 5px, solid, green;
+    width: auto;
+
+  }
+
+  #para1{
+    color: blue;
+    clear: left;
+  }
+
+  #para2{
+    color: red;
+    clear: left;
+  }
+
+}
+
+/* general screen at 768px max width */
+@media screen and (max-width: 768px) {
+
+}
+
+/* general screen at 640px max width */
+@media screen and (max-width: 640px) {
+
 }
